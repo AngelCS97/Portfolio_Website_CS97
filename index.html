@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Angel Calleja" />
+    <meta
+      name="description"
+      content="I am a fullstack developer passionate about creating innovative web solutions. With experience in JavaScript, 
+      React, Angular and Python, I specialize in building interactive and efficient applications. My portfolio includes real projects 
+      that highlight my ability to solve complex problems and deliver high-quality results. I am ready to face new challenges 
+      and collaborate on exciting projects."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website Definitivo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- https://necolas.github.io/normalize.css/ -->
+    <link rel="stylesheet" href="normalize.css" />
+ 
+    <!-- Favicon "Tab Icon" -->
+  <link rel="icon" type="image/x-icon" href="img/programming.png" >
+
+    <!-- Box Icons Link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Boxicons is a simple vector icons set carefully crafted for designers and developers to use in your next project. 
+    No attribution required. The set is well organized. All icons have the same container size and are converted to a component. -->
+    <!-- https://boxicons.com/   ||   https://github.com/atisawd/boxicons -->
+
+    <!-- Remix icons link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Remix Icon is a set of open-source neutral-style system symbols for designers and developers. Unlike a patchwork icon library, 
+    3000+ icons are all elaborately crafted so that they are born with the gene of readability, consistency and perfect pixels. -->
+    <!-- https://remixicon.com/   ||   https://github.com/Remix-Design/RemixIcon -->
+
+    <link 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <!-- https://fontawesome.com/v5/icons/python?f=brands&s=solid -->
+
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- https://fonts.google.com/selection/embed -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- https://github.com/michalsnik/aos -->
+  </head>
+<body>
+  <main>
+    <!-- header -->
+    <header>
+      <li><a class="logo" href="#"><p>Remote Freelance</p></a></li>
+
+      <nav>
+        <ul class="navbar">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </nav>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Section Home -->
+
+    <section class="home" id="home">
+      <div class="video-background">
+        <video autoplay muted loop playsinline>
+          <source src="media/small_video270408.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="home-text">
+        <!-- Animation -->
+        <h5 data-aos="fade-right" data-aos-duration="1400">
+          Full Stack Web Developer – JavaScript / Python
+        </h5>
+        <h1
+          data-aos="zoom-in-left"
+          data-aos-duration="1400"
+          data-aos-delay="200"
+        >
+          Angel Calleja
+        </h1>
+        <p
+          data-aos="fade-right"
+          data-aos-duration="1400"
+          data-aos-delay="300"
+        >
+        Develop modern, fast and optimized websites to help you get more customers, highlight search engines and offer your users a professional experience.
+        Work both the border and the backend, using technologies such as react, angular, node.js and SQL databases. I am also incorporating Python/Django for more robust solutions.
+        </p>
+
+        <div
+          class="main-hero"
+          data-aos="flip-down"
+          data-aos-duration="1400"
+          data-aos-delay="400"
+        >
+          <a href="#about" class="btn" aria-label="Toggle navigation menu">Know Me</a>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="icons">
+      <a
+        href="https://github.com/AyanokoujiCoder"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-aos="fade-in"
+        data-aos-duration="1400"
+        data-aos-delay="600"
+        aria-label="Visit my GitHub profile"
+        ><i class="ri-github-fill"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/angel-calleja-414a212b4/"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-aos="fade-in"
+        data-aos-duration="1400"
+        data-aos-delay="700"
+        aria-label="Visit my LinkedIn profile"
+        ><i class="ri-linkedin-box-fill"></i>
+      </a>
+      <a
+        href="https://www.upwork.com/freelancers/~01d265c2eec5fc7bad"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-aos="fade-in"
+        data-aos-duration="1400"
+        data-aos-delay="800"
+        aria-label="Visit my Upwork profile"
+        ><i class="ri-twitter-x-line"></i>
+      </a>
+    </div>
+
+    <div
+      class="scroll"
+      data-aos="zoom-out-down"
+      data-aos-duration="1400"
+      data-aos-delay="550"
+    >
+    </div>
+
+    <!-- About Me-->
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <div class="shadow-white">
+          <img src="img/about.jpg" alt="A professional portrait or illustrative image representing me as a programmer.">
+        </div>
+      </div>
+
+      <div class="about-text">
+        <h2>🔗 About Me</h2>
+        <h4>Hi, I'm here to work on our next project.</h4>
+        <p>
+          I'm a passionate full-stack developer, trained in practical bootcamps like <b>freeCodeCamp</b>, 
+          where I built a solid foundation in web development, JavaScript, React, and backend technologies. 
+          With over 2 years of continuous learning and hands-on practice, I've built real-world solutions 
+          ranging from junior-level applications to more complex semi-senior systems. 
+        </p>
+        <p>
+          I've developed a variety of web projects, including my responsive portfolios, landing pages, 
+          dynamic CRUD systems, and dashboard interfaces. My work focuses on clean architecture, 
+          efficient state management, and performance optimization.
+        </p>
+        <p>
+          My technical background includes self-paced certifications, project-based learning, 
+          continuous skill enhancement through modern documentation, and upcoming open source contributions.
+        </p>
+
+        <!-- English Proficiency Bar -->
+        <div style="margin-top: 20px;">
+          <label for="english-skill" style="display: block; margin-bottom: 6px;">
+            <strong>English Proficiency (A1 - C2)</strong>
+          </label>
+          <div style="position: relative; background-color: #eee; border-radius: 4px; width: 100%; height: 24px;">
+            <!-- Progress Bar -->
+            <div style="width: 60%; height: 100%; background-color: #cb0a41; border-radius: 4px; text-align: right; padding-right: 8px; color: white; font-size: 14px; line-height: 24px;">
+              60%
+            </div>
+            <!-- Level markers -->
+            <div style="position: absolute; top: 28px; width: 100%; display: flex; justify-content: space-between; font-size: 13px; color: #999;">
+              <span>A1</span>
+              <span>A2</span>
+              <span>B1</span>
+              <span>B2</span>
+              <span>C1</span>
+              <span>C2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Skills Section -->
+
+     <section class="skills" id="skills">
+      <div class="skills-container">
+        <h2>📚 Skills</h2>
+        <h4>These Are The Skills I Have Recently Mastered.</h4>
+        <div class="skills-grid">
+          <div class="skills-category">
+            <h3>Frontend</h3>
+            <div class="skills-items">
+              <span><i class='bx bxl-html5' ></i> HTML</span>
+              <span><i class='bx bxl-css3' ></i> CSS</span>
+              <span><i class='bx bxl-bootstrap' ></i> Bootstrap</span>
+              <span><i class='bx bxl-javascript' ></i> JavaScript</span>
+              <span><i class='bx bxl-react' ></i> React.js</span>
+              <span><i class='bx bxl-angular' ></i> Angular</span>
+              <span><i class='bx bxl-tailwind-css' ></i> Tailwind</span>
+              <span><i class='bx bxl-typescript' ></i> Typescript</span>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Backend</h3>
+            <div class="skills-items">
+              <span><i class='bx bxl-nodejs' ></i> Node.js/Express</span>
+              <span><i class='fab fa-python'></i> Python/Django</span>
+              <span><i class='bx bxl-postgresql' ></i> PostgreSQL</span>
+              <span><i class='bx bxl-mongodb' ></i> MongoDB</span>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Others</h3>
+            <div class="skills-items">
+              <span><i class='bx bxl-wordpress' ></i> Wordpress</span>
+              <span><i class='bx bxl-git' ></i> Git</span>
+              <span><i class='bx bxl-github' ></i> GitHub</span>
+              <span><i class='bx bxl-visual-studio' ></i> VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Services Section-->
+
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2>🌐 My Services</h2>
+        <h4>These Are The Services I Can Offer</h4>
+      </div>
+
+      <div class="services-content">
+        <div class="box">
+          <img src="img/programming (1).png" alt="Web Development Icon">
+          <h3>Landing effective pages</h3>
+          <p>I help you create effective pages, designed to capture the attention of your visitors 
+            and turn them into customers, with a clear approach to your objectives and calls to the action well thought out.</p>
+        </div>
+
+        <div class="box">
+          <img src="img/tienda-online.png" alt="Online Store Icon">
+          <h3>Functional and safe online stores</h3>
+          <p>I can also develop your online store, fully functional, safe and adapted to any device, 
+            with everything you need to start selling: payment catwalks, product management and a professional design.</p>
+        </div>
+
+        <div class="box">
+          <img src="img/web-maintenance (1).png" alt="Maintenance Icon">
+          <h3>Web Maintenance</h3>
+          <p>It provides regular updates, error corrections and performance optimizations to maintain your website running without problems and updated. 
+            I take care to keep your place updated, safe and working without interruptions, so you can concentrate on your business.</p>
+        </div>
+
+      </div>
+
+      <div class="services-content">
+
+        <div class="box">
+          <img src="img/search-engine-optimization (1).png" alt="SEO Optimization Icon">
+          <h3>SEO Optimization</h3>
+          <p>Improve the visibility of your website on search engines through the implementation of SEO technical strategies, keyword research, 
+            performance improvements, structure and content of your website to appeal in Google's first results and attract more potential clients.
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="img/chatbot.png" alt="Database Management Icon">
+          <h3>Custom web applications with AI</h3>
+          <p>Smart Apps Development using Python and artificial intelligence tools, automating repetitive tasks with smart scripts such as chatbots, recommendation or task automation systems.</p>
+        </div>
+
+        <div class="box">
+          <img src="img/api.png" alt="API Integration Icon">
+          <h3>API Integration</h3>
+          <p>Integration API to connect the application with its services, such as CRMS (Customer Relationship Management), mail platforms or custom databases.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2>💼 My Portfolio</h2>
+        <h4>Highlighted Projects & Tech Tags</h4>
+      </div>
+
+      <div class="portfolio-content">
+
+      <!-- Restaurante -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="Screenshot of the Restaurant Honey mobile app landing design showcasing the main interface with service options." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="https://ayanokoujicoder.github.io/restaurant-honey/" target="_blank" rel="noopener noreferrer">🍽️ Restaurant Honey</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Food Delivery Website</h4>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Amazon Clon -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="Screenshot of an Amazon-inspired e-commerce app interface displaying products." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="https://ayanokoujicoder.github.io/amazon/" target="_blank" rel="noopener noreferrer">🛒 Amazon Clone</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Online Store Project</h4>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Tienda de Ropa -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="Screenshot of a fashion shop website." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="#" target="_blank" rel="noopener noreferrer">👗 Fashion Store</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Clothing E-commerce Site</h4>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Tienda de Tecnología -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="Screenshot of a tech products store." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="#" target="_blank" rel="noopener noreferrer">💻 Tech Shop</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Electronics Storefront</h4>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Realidad Virtual -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="Screenshot of a virtual reality website showcasing immersive user experiences." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="https://ayanokoujicoder.github.io/virtual-reality/" target="_blank" rel="noopener noreferrer">🕶️ Virtual Reality</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Immersive Experience Site</h4>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Responsive con Tailwind -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="Responsive UI with Tailwind and React." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="https://github.com/AyanokoujiCoder/car_showcase" target="_blank" rel="noopener noreferrer">🚗 Car Showcase</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Responsive App</h4>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">TailwindCSS</span>
+        </div>
+      </div>
+
+      <!-- Blog React Node Mongo -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="Blog system with full stack technologies." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="https://github.com/AyanokoujiCoder/node-express-mongodb" target="_blank" rel="noopener noreferrer">📝 Dev Blog</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Full Stack Blog</h4>
+        <div class="tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">MongoDB</span>
+        </div>
+      </div>
+
+      <!-- Python CRM -->
+      <div class="row">
+        <img src="img/coming_soon.png" alt="CRM app built with Python." />
+        <div class="main-row">
+          <div class="row-text">
+            <h3><a href="https://github.com/AyanokoujiCoder/python-crm" target="_blank" rel="noopener noreferrer">📊 CRM App</a></h3>
+          </div>
+          <div class="row-icon">
+            <i class='bx bx-heart' aria-hidden="true"></i>
+          </div>
+        </div>
+        <h4>Client Management System</h4>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Flask/Django</span>
+        </div>
+      </div>
+    </div>
+      <div class="btn-wrapper">
+        <a href="" class="btn-more" target="_blank" rel="noopener noreferrer" aria-label="See more of my portfolio">See more</a>
+      </div>
+  </section>
+      
+    </section>
+
+    <!-- Reviews Section -->
+      <section class="testimonial-wrapper" id="reviews">
+        <div class="main-text">
+          <div class="review">
+            <h2>🌟 Reviews</h2>
+            <h4>Featured Comments On My Future Projects & Collaborations</h4>
+          </div>
+        </div>
+        <div class="testimonial-grid">
+    <!-- Tarjeta 1 -->
+    <div class="testimonial-card">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de Alex Smith" class="profile-img" />
+      <p>“Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...
+        Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...”</p>
+      <h3>Alex Smith</h3>
+      <span class="role">Designer | Developer</span>
+      <div class="stars">★☆☆☆☆</div>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="testimonial-card">
+      <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Foto de Steven Chris" class="profile-img" />
+      <p>“Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...
+        Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...”</p>
+      <h3>Steven Chris</h3>
+      <span class="role">YouTuber | Blogger</span>
+      <div class="stars">★★☆☆☆</div>
+    </div>
+
+    <!-- Tarjeta 3 -->
+    <div class="testimonial-card">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto de Kristina Bellis" class="profile-img" />
+      <p>“Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...
+        Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...”</p>
+      <h3>Kristina Bellis</h3>
+      <span class="role">Freelancer | Advertiser</span>
+      <div class="stars">★★★☆☆</div>
+    </div>
+
+    <!-- Tarjeta 4 -->
+    <div class="testimonial-card">
+      <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Foto de Michael Lee" class="profile-img" />
+      <p>“Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...
+        Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...”</p>
+      <h3>Michael Lee</h3>
+      <span class="role">UI/UX | Designer</span>
+      <div class="stars">★★★★☆</div>
+    </div>
+
+    <!-- Tarjeta 5 -->
+    <div class="testimonial-card">
+      <img src="https://randomuser.me/api/portraits/women/53.jpg" alt="Foto de Susan Park" class="profile-img" />
+      <p>“Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...
+        Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...”</p>
+      <h3>Susan Park</h3>
+      <span class="role">Copywriter | Marketer</span>
+      <div class="stars">★★★☆☆</div>
+    </div>
+
+    <!-- Tarjeta 6 -->
+    <div class="testimonial-card">
+      <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Foto de Daniel Kim" class="profile-img" />
+      <p>“Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...
+        Lorem aliasry ipsum dolor sit ametans...Lorem aliasry ipsum dolor sit ametans...”</p>
+      <h3>Daniel Kim</h3>
+      <span class="role">Engineer | Freelancer</span>
+      <div class="stars">★★★★★</div>
+    </div>
+    </div>
+  </section>
+
+     <!-- Contact Section -->
+
+     <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>✉︎ Contact Me</h2>
+          <h4>Landing Pages, Web Maintenance, and SEO</h4>
+            <p>
+            Do you need a professional landing page, ongoing maintenance for your website, or to improve your search engine rankings?
+            I offer customized solutions starting at <b>$40 USD</b> per landing page, <b>$30 USD/month</b> for web maintenance, and SEO packages starting at <b>$50 USD</b> to optimize your online presence.<br><br>
+            Fill out the form and I'll send you a proposal tailored to your needs. Let's talk about your project!
+            </p>
+          <div class="contact-list">
+            <li><a href="#">Mexico City - CDMX</a></li>
+            <li><a href="#">angelcallejasegura2024@gmail.com</a></li>
+          </div>
+          <div class="contact-icons">
+            <a 
+              href="https://www.linkedin.com/in/angel-calleja-414a212b4/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Visit my LinkedIn profile"
+            >
+              <i class='bx bxl-linkedin-square' aria-hidden="true"></i>
+            </a>
+            <a 
+              href="https://github.com/AyanokoujiCoder" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Visit my GitHub profile"
+            >
+              <i class='bx bxl-github' aria-hidden="true"></i>
+            </a>
+            <a 
+              href="https://www.upwork.com/freelancers/~01d265c2eec5fc7bad" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              aria-label="Visit my Upwork profile"
+            >
+              <i class="ri-twitter-x-line"></i>
+            </a>
+          </div>
+          
+          <a href="img/Elegant Minimalist CV Resume By Angel.pdf.pdf" class="btn-cv" download>View CV</a>
+        </div>
+
+        <!-- https://web3forms.com/platforms/html-contact-form -->
+
+        <div class="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="c4e8b6a1-0957-4f47-89a5-b16156e0275d">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Your Email" required>
+            <textarea name="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+            <button type="submit" class="send">Send</button>
+          </form>
+        </div>      
+     </section>
+
+     <!-- Blog Section -->
+
+    <section class="blog" id="blog">
+      <div class="container">
+      <div class="title">
+        <h2>📘 Professional Blog</h2>
+        <h4>Sharing Knowledge, Code, Tips, Experience & Guidance</h4>
+      </div>
+
+        <div class="blog-content">
+          <!-- Entrada única de blog -->
+          <div class="blog-item">
+            <div class="blog-img">
+              <img src="img/coming_soon.png" alt="Imagen del blog profesional" />
+              <span><i class="far fa-heart"></i></span>
+            </div>
+            <div class="blog-text">
+              <span>20 Julio, 2025</span>
+              <h2>How to start your journey as a freelance developer</h2>
+              <p>Learn how to get started in the world of freelance development: choose your tools wisely, learn to organize your portfolio, and start generating income with your technical skills.</p>
+              <a href="#">Read full articleo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Footer -->
+
+     <footer class="last-text">
+      <p>Developed with ❤️ by A.C &copy; 2024-2025</p>
+     </footer>
+
+     <!-- Arrow Top -->
+     <a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+     <!-- Scroll -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+  </main>
+
+  <!-- JS Link -->
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- Slide Animation -->
+  <script>
+    AOS.init({
+      offset: 1,
+    });
+  </script>
+</body>
+</html>
