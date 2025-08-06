@@ -601,6 +601,11 @@ header.sticky {
   background-color: #ffcccc;
   color: #800000;
 }
+.portfolio p {
+  font-size: var(--p-font);
+  color: var(--second-color);
+  margin-top: 10px;
+}
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
